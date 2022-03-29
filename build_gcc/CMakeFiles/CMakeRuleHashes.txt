@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+ce5bd9e4afac104269bf8d917c25db25 homeworks/CMakeFiles/test_homeworks_mastersolution
+9bd7f8c7e7ccfb158a21e1e7be543ca9 homeworks/CMakeFiles/test_homeworks_mysolution
