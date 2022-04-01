@@ -106,5 +106,5 @@ Eigen::VectorXd RidgeRegressionQR(const Eigen::MatrixXd& X,
 
 double RMSE(const Eigen::VectorXd& y, const Eigen::VectorXd& y_hat) {
   assert(y.size() == y_hat.size());
-  return std::pow(std::pow((y - y_hat).sum(), 2), 0.5) / y.size();
+  return std::sqrt(std::pow((y - y_hat).sum(), 2)) / y.size();
 }

@@ -7,4 +7,4 @@ include("../cmake/modules/custom_targets.cmake")
 get_custom_test_targets()
 
 add_subdirectory(task1a)
-
+add_subdirectory(task1b)

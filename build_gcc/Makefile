@@ -168,6 +168,32 @@ task1a_cpp.static/fast:
 	$(MAKE) $(MAKESILENT) -f homeworks/task1a/CMakeFiles/task1a_cpp.static.dir/build.make homeworks/task1a/CMakeFiles/task1a_cpp.static.dir/build
 .PHONY : task1a_cpp.static/fast
 
+#=============================================================================
+# Target rules for targets named task1b_cpp
+
+# Build rule for target.
+task1b_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task1b_cpp
+.PHONY : task1b_cpp
+
+# fast build rule for target.
+task1b_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f homeworks/task1b/CMakeFiles/task1b_cpp.dir/build.make homeworks/task1b/CMakeFiles/task1b_cpp.dir/build
+.PHONY : task1b_cpp/fast
+
+#=============================================================================
+# Target rules for targets named task1b_cpp.static
+
+# Build rule for target.
+task1b_cpp.static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task1b_cpp.static
+.PHONY : task1b_cpp.static
+
+# fast build rule for target.
+task1b_cpp.static/fast:
+	$(MAKE) $(MAKESILENT) -f homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/build.make homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/build
+.PHONY : task1b_cpp.static/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -180,6 +206,8 @@ help:
 	@echo "... test_homeworks_mysolution"
 	@echo "... task1a_cpp"
 	@echo "... task1a_cpp.static"
+	@echo "... task1b_cpp"
+	@echo "... task1b_cpp.static"
 .PHONY : help
 
 
@@ -193,4 +221,3 @@ help:
 cmake_check_build_system:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
-

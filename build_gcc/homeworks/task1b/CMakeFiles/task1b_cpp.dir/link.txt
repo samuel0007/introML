@@ -1,0 +1,1 @@
+/usr/bin/g++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/task1b_cpp.dir/cpp/main.cc.o CMakeFiles/task1b_cpp.dir/cpp/task1b.cc.o -o task1b_cpp

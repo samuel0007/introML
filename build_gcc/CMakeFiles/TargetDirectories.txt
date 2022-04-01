@@ -8,3 +8,7 @@
 /Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/homeworks/task1a/CMakeFiles/task1a_cpp.static.dir
 /Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/homeworks/task1a/CMakeFiles/edit_cache.dir
 /Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/homeworks/task1a/CMakeFiles/rebuild_cache.dir
+/Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/homeworks/task1b/CMakeFiles/task1b_cpp.dir
+/Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/homeworks/task1b/CMakeFiles/task1b_cpp.static.dir
+/Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/homeworks/task1b/CMakeFiles/edit_cache.dir
+/Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/homeworks/task1b/CMakeFiles/rebuild_cache.dir

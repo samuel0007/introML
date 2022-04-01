@@ -136,6 +136,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../homeworks/build.cmake"
   "../homeworks/task1a/CMakeLists.txt"
   "../homeworks/task1a/cpp/dependencies.cmake"
+  "../homeworks/task1b/CMakeLists.txt"
+  "../homeworks/task1b/cpp/dependencies.cmake"
   "/usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -186,6 +188,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "homeworks/CMakeFiles/CMakeDirectoryInformation.cmake"
   "homeworks/task1a/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "homeworks/task1b/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -194,4 +197,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "homeworks/CMakeFiles/test_homeworks_mysolution.dir/DependInfo.cmake"
   "homeworks/task1a/CMakeFiles/task1a_cpp.dir/DependInfo.cmake"
   "homeworks/task1a/CMakeFiles/task1a_cpp.static.dir/DependInfo.cmake"
+  "homeworks/task1b/CMakeFiles/task1b_cpp.dir/DependInfo.cmake"
+  "homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/DependInfo.cmake"
   )

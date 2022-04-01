@@ -79,16 +79,19 @@ clean: homeworks/clean
 
 # Recursive "all" directory target.
 homeworks/all: homeworks/task1a/all
+homeworks/all: homeworks/task1b/all
 .PHONY : homeworks/all
 
 # Recursive "preinstall" directory target.
 homeworks/preinstall: homeworks/task1a/preinstall
+homeworks/preinstall: homeworks/task1b/preinstall
 .PHONY : homeworks/preinstall
 
 # Recursive "clean" directory target.
 homeworks/clean: homeworks/CMakeFiles/test_homeworks_mastersolution.dir/clean
 homeworks/clean: homeworks/CMakeFiles/test_homeworks_mysolution.dir/clean
 homeworks/clean: homeworks/task1a/clean
+homeworks/clean: homeworks/task1b/clean
 .PHONY : homeworks/clean
 
 #=============================================================================
@@ -107,6 +110,23 @@ homeworks/task1a/preinstall:
 homeworks/task1a/clean: homeworks/task1a/CMakeFiles/task1a_cpp.dir/clean
 homeworks/task1a/clean: homeworks/task1a/CMakeFiles/task1a_cpp.static.dir/clean
 .PHONY : homeworks/task1a/clean
+
+#=============================================================================
+# Directory level rules for directory homeworks/task1b
+
+# Recursive "all" directory target.
+homeworks/task1b/all: homeworks/task1b/CMakeFiles/task1b_cpp.dir/all
+homeworks/task1b/all: homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/all
+.PHONY : homeworks/task1b/all
+
+# Recursive "preinstall" directory target.
+homeworks/task1b/preinstall:
+.PHONY : homeworks/task1b/preinstall
+
+# Recursive "clean" directory target.
+homeworks/task1b/clean: homeworks/task1b/CMakeFiles/task1b_cpp.dir/clean
+homeworks/task1b/clean: homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/clean
+.PHONY : homeworks/task1b/clean
 
 #=============================================================================
 # Target rules for target homeworks/CMakeFiles/test_homeworks_mastersolution.dir
@@ -213,6 +233,58 @@ homeworks/task1a/CMakeFiles/task1a_cpp.static.dir/clean:
 .PHONY : homeworks/task1a/CMakeFiles/task1a_cpp.static.dir/clean
 
 #=============================================================================
+# Target rules for target homeworks/task1b/CMakeFiles/task1b_cpp.dir
+
+# All Build rule for target.
+homeworks/task1b/CMakeFiles/task1b_cpp.dir/all:
+	$(MAKE) $(MAKESILENT) -f homeworks/task1b/CMakeFiles/task1b_cpp.dir/build.make homeworks/task1b/CMakeFiles/task1b_cpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f homeworks/task1b/CMakeFiles/task1b_cpp.dir/build.make homeworks/task1b/CMakeFiles/task1b_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/CMakeFiles --progress-num=7,8,9 "Built target task1b_cpp"
+.PHONY : homeworks/task1b/CMakeFiles/task1b_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+homeworks/task1b/CMakeFiles/task1b_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 homeworks/task1b/CMakeFiles/task1b_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/CMakeFiles 0
+.PHONY : homeworks/task1b/CMakeFiles/task1b_cpp.dir/rule
+
+# Convenience name for target.
+task1b_cpp: homeworks/task1b/CMakeFiles/task1b_cpp.dir/rule
+.PHONY : task1b_cpp
+
+# clean rule for target.
+homeworks/task1b/CMakeFiles/task1b_cpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f homeworks/task1b/CMakeFiles/task1b_cpp.dir/build.make homeworks/task1b/CMakeFiles/task1b_cpp.dir/clean
+.PHONY : homeworks/task1b/CMakeFiles/task1b_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target homeworks/task1b/CMakeFiles/task1b_cpp.static.dir
+
+# All Build rule for target.
+homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/all:
+	$(MAKE) $(MAKESILENT) -f homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/build.make homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/depend
+	$(MAKE) $(MAKESILENT) -f homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/build.make homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/CMakeFiles --progress-num=10,11,12 "Built target task1b_cpp.static"
+.PHONY : homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/all
+
+# Build rule for subdir invocation for target.
+homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/CMakeFiles 0
+.PHONY : homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/rule
+
+# Convenience name for target.
+task1b_cpp.static: homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/rule
+.PHONY : task1b_cpp.static
+
+# clean rule for target.
+homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/clean:
+	$(MAKE) $(MAKESILENT) -f homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/build.make homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/clean
+.PHONY : homeworks/task1b/CMakeFiles/task1b_cpp.static.dir/clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.
@@ -221,4 +293,3 @@ homeworks/task1a/CMakeFiles/task1a_cpp.static.dir/clean:
 cmake_check_build_system:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
-
