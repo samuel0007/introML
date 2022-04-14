@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build_mysolution",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "./.vscode/compile_mysolution.sh",
+                "${workspaceFolder}",
+                "${relativeFileDirname}",
+            ]
+        }
+    ]
+}

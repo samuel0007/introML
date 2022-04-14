@@ -10,3 +10,20 @@ To add the precommit hooks, run
 pip install -r requirements-dev.txt
 pre-commit install
 ~~~
+
+# CPP version
+
+To compile the cpp version you will have to type the following commands.
+
+    mkdir build
+    cd build
+    cmake ..
+
+Then you will only have to choose which project you want to compile.
+For the task1a this would be
+
+    make task1a_cpp
+
+Now navigate to build/homeworks/task1a
+
+There you will find yout executable.
