@@ -41,5 +41,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/homeworks/task1a/cmake_install.cmake")
   include("/Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/homeworks/task1b/cmake_install.cmake")
+  include("/Users/bobschreiner/Desktop/ETH/Semester4/Lectures/IML/introML/build_gcc/homeworks/task2/cmake_install.cmake")
 
 endif()

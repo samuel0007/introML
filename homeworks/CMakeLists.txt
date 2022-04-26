@@ -8,3 +8,4 @@ get_custom_test_targets()
 
 add_subdirectory(task1a)
 add_subdirectory(task1b)
+add_subdirectory(task2)
